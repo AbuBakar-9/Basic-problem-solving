@@ -2,27 +2,27 @@
 
 int main()
 {
-int n,f,s,fibo;
-f=0;
-s=1;
+int n,n1,n2,fibo;
+n1=0;
+n2=1;
 
 scanf("%d",&n);
 
 for(int i=0;i<=n;i++){
-    
+
     if(i<=1){
 
        fibo=i;
     }else{
 
-         fibo=f+s;
-         f=s;
-         s=fibo;
+         fibo=n1+n2;
+         n1=n2;
+         n2=fibo;
     }
 
   printf("%d ",fibo);
-   
-   
+
+
 }
 
 
